@@ -7,7 +7,7 @@ s = ''
 
 
 class Sign:
-    def __init__(self, data):
+    def __init__(self, data: str):
         self.data = data
 
     def md(self):
